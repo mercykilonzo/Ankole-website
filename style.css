@@ -1,0 +1,125 @@
+
+body{
+    /* overflow: hidden; */
+    font-size: x-large;
+
+}
+.home{
+    background-image: url(images/outsidegrill.jpg ),
+    url(images/ankole-grill-kilimani.jpg), url(images/bone-steak.jpg),url(images/taste-juice.jpg);
+    animation: changeBackground 5s infinite linear;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    padding: 40% 30% 0%;
+}
+.slideshow{
+    animation: alternate;
+
+}
+
+/* @keyframes changeBackground {
+    0% { background-position: 0 0; }
+    33% { background-position: 0 -100%; }
+    66% { background-position: 0 -200%; }
+    100% { background-position: 0 -300%; }
+  } */
+
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    padding: 40px 0px 20px 50px;
+    border-radius: 40px;
+    
+}
+.kitisuru{
+    background-image: url(images/outsidegrill.jpg);
+    height: 78vh;
+    width: 50%;
+    background-size: cover;
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+}
+.locations{
+    display: flex;
+    
+}
+.kilimani{
+    background-image: url(images/ankole-grill-kilimani.jpg) ;
+    height: 78vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+
+}
+.kitisuru_menu{
+    display: flex;
+}
+.menu{
+    background-image: url(images/kitisuru-menujpg);
+    background-size: cover;
+    height: 60vh;
+    width: 50%;
+    color: white;
+    padding: 300px 0px 100px 90px;
+}
+#menus{
+    display: flex;
+    gap: 40px;
+    padding-left: 200px;
+}
+.food_items{
+    display: flex;
+    gap: 40px;
+}
+.menus{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    height: 88vh;
+    width: 50%;
+    padding: 70px;
+}
+.menu_nav{
+    position: relative;
+    
+
+}
+.events{
+    display: flex;
+}
+#accra{
+    background-image: url(images/accra.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    width: 60vh;
+    padding: 130px 0px 0px 80px;
+}
+#zanzibar{
+    background-image: url(images/Zanzibar.jpg);
+    color: white;
+    height: 100vh;
+    width: 60vh;
+    padding: 130px 0px 0px 80px;
+
+}
+#decor{
+    background-image: url(images/decor.jpg);
+    color: white;
+    height: 100vh;
+    width: 60vh;
+    padding: 130px 0px 0px 80px;
+
+}
