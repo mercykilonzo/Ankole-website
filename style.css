@@ -1,7 +1,7 @@
 
 body{
     /* overflow: hidden; */
-    font-size: x-large;
+    font-size: 25px;
 
 }
 .home{
@@ -122,4 +122,90 @@ nav{
     width: 60vh;
     padding: 130px 0px 0px 80px;
 
+}
+.contacts{
+    display: flex;
+    background-image: url(images/contact.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    gap: 40px;
+    font-size: large;
+    height: 40vh;
+    text-align: center;
+    padding: 250px 300px 300px 600px;
+    position: relative;
+}
+.contacts::after{
+    background-color: rgba(0, 0,0,0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+#kitisuru_contacts{
+    border: 2px solid;
+    height: 50vh;
+    width: 40%;
+    
+
+}
+#kilimani_contacts{
+    border: 2px solid;
+    height: 60vh;
+    width: 40%;
+   }
+.reservation{
+    display: flex;
+   
+}
+#reservation{
+    background-image: url(images/reservation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    width: 60%;
+
+}
+.form{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    width: 40%;
+}
+#name{
+    height: 40px;
+    width: 80%;
+}
+#location{
+    height: 40px;
+    width: 80%;
+}
+#telephone{
+    height: 40px;
+    width: 80%;
+}
+#email{
+    height: 40px;
+    width: 80%;
+}
+#date{
+    height: 40px;
+    width: 80%;
+}
+#time{
+    height: 40px;
+    width: 80%;
+}
+#submit_button{
+    height: 40px;
+    width: 80%;
+}
+#guest{
+    height: 40px;
+    width: 80%;
 }
