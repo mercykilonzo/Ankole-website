@@ -1,0 +1,111 @@
+
+.reviews{
+    text-align: center;
+    padding-top: 7%;
+    display: flex;
+    gap: 50px;
+    padding-left: 20%;
+    background-color: black;
+    height: 90vh;
+    color: white;
+    
+}
+#top_quote{
+    padding-right: 80%;
+    color: brown;
+    
+}
+#bottom_quote{
+    padding-left: 80%;
+    color: brown;
+
+}
+#chevron{
+    padding-top: 40vh;
+    color: gray;
+}
+@media screen and (max-width: 760px){
+    body{
+        overflow-y: hidden;
+    }
+    .reviews{
+        padding-top: 7%;
+        display: flex;
+        gap: 4px;
+        padding-left: 2%;
+        background-color: black;
+        height: 160vh;
+        color: white;
+        
+    }
+    #top_quote{
+        padding-right: 80%;
+        color: brown;
+        
+    }
+    #bottom_quote{
+        padding-left: 80%;
+        color: brown;
+    
+    }
+    #chevron{
+        padding-top: 60vh;
+        color: gray;
+}
+/* nav{
+    background-color: black;
+    height: 40px;
+    display: table-column;
+    gap: 20px;
+    padding: 40px 0px 20px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 80vh;
+    left:1vh;
+    width: 43%;
+} */
+
+}
+@media screen  and  (max-width: 1200px)  and (min-width: 761px){
+
+    body{
+        overflow-y: hidden;
+    }
+    .reviews{
+        padding-top: 7%;
+        display: flex;
+        gap: 4px;
+        padding-left: 2%;
+        background-color: black;
+        height: 160vh;
+        color: white;
+        padding: 60px;
+        
+    }
+    #top_quote{
+        padding-right: 80%;
+        color: brown;
+        
+    }
+    #bottom_quote{
+        padding-left: 80%;
+        color: brown;
+    
+    }
+    #chevron{
+        padding-top: 40vh;
+        color: gray;
+    }
+    nav{
+        background-color: black;
+        height: 40px;
+        display: flex;
+        gap: 20px;
+        padding: 40px 0px 20px 50px;
+        border-radius: 40px;
+        position: absolute;
+        top: 80vh;
+        left:1vh;
+        width: 43%;
+    }
+}

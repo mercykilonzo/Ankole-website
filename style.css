@@ -1,13 +1,12 @@
 
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: 25px;
+    margin: 0;
+
 
 }
 .home{
-    background-image: url(images/outsidegrill.jpg ),
-    url(images/ankole-grill-kilimani.jpg), url(images/bone-steak.jpg),url(images/taste-juice.jpg);
-    animation: changeBackground 5s infinite linear;
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -15,16 +14,54 @@ body{
     position: relative;
 }
 .slideshow{
-    animation: alternate;
+  background-position: center;
+  opacity: 0;
+  text-align: center;
+  font-size: 65px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  animation: slideshow 15s infinite;
+  color: gray;
+  
 
 }
-
-/* @keyframes changeBackground {
-    0% { background-position: 0 0; }
-    33% { background-position: 0 -100%; }
-    66% { background-position: 0 -200%; }
-    100% { background-position: 0 -300%; }
-  } */
+.slide1 {
+    background-image: url(images/outsidegrill.jpg);
+    animation-delay: 0s;
+  }
+  .slide2{
+    background-image: url(images/ankole-grill-kilimani.jpg);
+    animation-delay: 3s;
+  }
+  .slide3{
+    background-image: url(images/bone-steak.jpg);
+    animation-delay: 6s;
+  }
+  .slide4{
+    background-image: url(images/taste-juice.jpg);
+    animation-delay: 9s;
+  }
+  .slide5{
+    background-image: url(images/grill.jpg);
+    animation-delay: 12s;
+  }
+  @keyframes slideshow {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    20%,
+    40% {
+      opacity: 1;
+    }
+    60%,
+    100% {
+      opacity: 1;
+    }
+  }
+  
 
 nav a{
     text-decoration: none;
@@ -41,80 +78,13 @@ nav{
     position: absolute;
     top: 80vh;
     left:50vh;
-    width: 43%;
+    width: 40%;
 }
-.menu_nav{
-    width: 100%;
-    right: 50vh;
-
-}
-.kitisuru{
-    background-image: url(images/outsidegrill.jpg);
-    height: 78vh;
-    width: 50%;
-    background-size: cover;
-    color: white;
-    padding-top: 200px;
-    text-align: center;
-    background-color: rgba(0, 0,0,0.5);
-    background-blend-mode: darken;
-}
-.locations{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    
-}
-.kilimani{
-    background-image: url(images/ankole-grill-kilimani.jpg) ;
-    height: 78vh;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    padding-top: 200px;
-    text-align: center;
-    background-color: rgba(0, 0,0,0.5);
-    background-blend-mode: darken;
-
-}
-.kitisuru_menu{
+/* .events{
     display: flex;
 }
-.menu{
-    background-image: url(images/kitisuru-menujpg);
-    background-size: cover;
-    height: 60vh;
-    width: 50%;
-    color: white;
-    padding: 300px 0px 100px 90px;
-    background-color: rgba(0, 0,0,0.5);
-    background-blend-mode: darken;
-}
-#menus{
-    display: flex;
-    gap: 40px;
-    padding-left: 200px;
-}
-.food_items{
-    display: flex;
-    gap: 40px;
-}
-.menus{
-    background-color: black;
-    color: white;
-    overflow: auto;
-    height: 88vh;
-    width: 50%;
-    padding: 70px;
-}
-.menu_nav{
-    position: relative;
-    
-
-}
-.events{
-    display: flex;
+#event_p{
+    color: orange;
 }
 #accra{
     background-image: url(images/accra.jpg);
@@ -122,18 +92,21 @@ nav{
     color: white;
     height: 100vh;
     width: 60vh;
-    padding: 130px 0px 0px 80px;
+    padding: 350px 0px 0px 50px;
     background-color: rgba(0, 0,0,0.5);
     background-blend-mode: darken;
+    text-align: center;
 }
 #zanzibar{
     background-image: url(images/Zanzibar.jpg);
     color: white;
     height: 100vh;
     width: 60vh;
-    padding: 130px 0px 0px 80px;
+    padding: 170px 0px 0px 50px;
     background-color: rgba(0, 0,0,0.5);
     background-blend-mode: darken;
+    text-align: center;
+
 
 }
 #decor{
@@ -141,42 +114,52 @@ nav{
     color: white;
     height: 100vh;
     width: 60vh;
-    padding: 130px 0px 0px 80px;
+    padding: 350px 0px 0px 50px;
     background-color: rgba(0, 0,0,0.5);
     background-blend-mode: darken;
+    text-align: center;
 
-}
-.contacts{
+
+} */
+/* .contacts{
     display: flex;
     background-image: url(images/contact.jpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    gap: 40px;
+    gap: 25px;
     font-size: large;
     height: 40vh;
     text-align: center;
-    padding: 250px 300px 300px 600px;
+    padding: 250px 300px 300px 300px;
     position: relative;
     background-color: rgba(0, 0,0,0.5);
     background-blend-mode: darken;
+}
+#ankole_logo{
+    left: 560px;
+    bottom: 120px;
+    position: relative;
 }
 
 #kitisuru_contacts{
     border: 2px solid;
     height: 50vh;
-    width: 40%;
+    width: 35%;
     
 
 }
 #kilimani_contacts{
     border: 2px solid;
     height: 60vh;
-    width: 40%;
+    width: 35%;
    }
 .reservation{
     display: flex;
-   
+} */
+
+.reservation{
+    display: flex;
 }
 #reservation{
     background-image: url(images/reservation.jpg);
@@ -190,12 +173,20 @@ nav{
     background-color: rgba(0, 0,0,0.5);
     background-blend-mode: darken;
 
+
 }
 .form{
     background-color: black;
     color: white;
     padding: 80px;
     width: 40%;
+}
+input{
+    background-color: black;
+    color: white;
+}
+#selector{
+    background-color: black;
 }
 #name{
     height: 40px;
@@ -232,7 +223,7 @@ nav{
 #ankole_logo{
     height: 170px;
 }
-.reviews{
+/* .reviews{
     text-align: center;
     padding-top: 7%;
     display: flex;
@@ -256,4 +247,34 @@ nav{
 #chevron{
     padding-top: 40vh;
     color: gray;
+} */
+.live{
+    background-image: url(images/vibrant\ culture.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    background-color: rgba(0, 0,0,0.5);
+    background-blend-mode: darken;
+
+}
+.fadhilee{
+    background-image: url(images/fadhille.jpeg);
+    background-color: rgba(0, 0,0,0.5);
+    background-blend-mode: darken;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 200vh;
+    color: white;
+    padding: 60px;
+
+}
+.live_acoustic{
+    margin-top: 39%;
+    display: flex;
+    font-size: 52px;
+    gap: 50px;
+    
 }

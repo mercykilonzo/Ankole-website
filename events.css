@@ -1,0 +1,176 @@
+body{
+    /* overflow: hidden; */
+}
+.events{
+    display: flex;
+}
+#event_p{
+    color: orange;
+}
+#accra{
+    background-image: url(images/accra.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    height: 71vh;
+    width: 60vh;
+    padding: 350px 0px 0px 50px;
+    background-color: rgba(0, 0,0,0.5);
+    background-blend-mode: darken;
+    text-align: center;
+}
+#zanzibar{
+    background-image: url(images/Zanzibar.jpg);
+    color: white;
+    height: 90vh;
+    width: 60vh;
+    padding: 170px 0px 0px 50px;
+    background-color: rgba(0, 0,0,0.5);
+    background-blend-mode: darken;
+    text-align: center;
+
+
+}
+#decor{
+    background-image: url(images/decor.jpg);
+    color: white;
+    height: 71vh;
+    width: 65vh;
+    padding: 350px 0px 0px 50px;
+    background-color: rgba(0, 0,0,0.5);
+    background-blend-mode: darken;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 760px){
+   
+    body{
+        overflow-x: hidden;
+    }
+    .events{
+        display: block;
+    }
+    #event_p{
+        color: orange;
+    }
+    #accra{
+        background-image: url(images/accra.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        height: 100vh;
+        width: 100%;
+        padding: 100px 0px 0px 10px;
+        background-color: rgba(0, 0,0,0.5);
+        background-blend-mode: darken;
+        text-align: center;
+    }
+    #zanzibar{
+        background-image: url(images/Zanzibar.jpg);
+        color: white;
+        height: 80vh;
+        width: 100%;
+        padding: 100px 0px 0px 10px;
+        background-color: rgba(0, 0,0,0.5);
+        background-blend-mode: darken;
+        text-align: center;
+    
+    
+    }
+    #decor{
+        background-image: url(images/decor.jpg);
+        color: white;
+        height: 90vh;
+        width: 100%;
+        padding: 100px 0px 0px 10px;
+        background-color: rgba(0, 0,0,0.5);
+        background-blend-mode: darken;
+        text-align: center;
+    
+    
+    }
+    nav{
+        background-color: black;
+        height: 40px;
+        display: table-column;
+        gap: 20px;
+        padding: 10px 1px 60px 20px;
+        border-radius: 40px;
+        position: absolute;
+        top: 80vh;
+        left:2%;
+        width: 90%;
+        position: fixed;
+    }
+    
+}
+
+@media screen  and  (max-width: 1200px)  and (min-width: 761px){
+   
+   body{
+    overflow-x: hidden;
+   }
+    .events{
+        display: block;
+    }
+    #event_p{
+        color: orange;
+    }
+    #accra{
+        background-image: url(images/accra.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        height: 100vh;
+        width: 100%;
+        padding: 100px 0px 0px 10px;
+        background-color: rgba(0, 0,0,0.5);
+        background-blend-mode: darken;
+        text-align: center;
+    }
+    #zanzibar{
+        background-image: url(images/Zanzibar.jpg);
+        color: white;
+        height: 80vh;
+        width: 100%;
+        padding: 100px 0px 0px 10px;
+        background-color: rgba(0, 0,0,0.5);
+        background-blend-mode: darken;
+        text-align: center;
+    
+    
+    }
+    #decor{
+        background-image: url(images/decor.jpg);
+        color: white;
+        height: 90vh;
+        width: 100%;
+        padding: 100px 0px 0px 10px;
+        background-color: rgba(0, 0,0,0.5);
+        background-blend-mode: darken;
+        text-align: center;
+    
+    
+    }
+    nav{
+        background-color: black;
+        height: 40px;
+        display: table-column;
+        gap: 20px;
+        padding: 10px 1px 60px 20px;
+        border-radius: 40px;
+        position: absolute;
+        top: 80vh;
+        left:2%;
+        width: 90%;
+        position: fixed;
+    }
+    
+
+
+}
