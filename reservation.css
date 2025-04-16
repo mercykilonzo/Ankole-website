@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    padding: 40px 0px 20px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 80vh;
+    left:50vh;
+    width: 40%;
+}
+
+.reservation{
+    display: flex;
+}
+#reservation{
+    background-image: url(images/reservation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 62vh;
+    color: white;
+    width: 60%;
+    text-align: center;
+    padding-top: 350px;
+    background-color: rgba(0, 0,0,0.5);
+    background-blend-mode: darken;
+
+
+}
+.form{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    width: 40%;
+}
+input{
+    background-color: black;
+    color: white;
+}
+#selector{
+    background-color: black;
+}
+#name{
+    height: 40px;
+    width: 80%;
+}
+#location{
+    height: 40px;
+    width: 80%;
+}
+#telephone{
+    height: 40px;
+    width: 80%;
+}
+#email{
+    height: 40px;
+    width: 80%;
+}
+#date{
+    height: 40px;
+    width: 80%;
+}
+#time{
+    height: 40px;
+    width: 80%;
+}
+#submit_button{
+    height: 40px;
+    width: 80%;
+}
+#guest{
+    height: 40px;
+    width: 80%;
+}
+#ankole_logo{
+    height: 170px;
+}
+#whatsapp{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    bottom: 10vh;
+    right: 80px;
+}
+
+@media screen and (max-width: 760px){
+    nav{
+        background-color: black;
+        height: 40px;
+        display: table-column;
+        gap: 20px;
+        padding: 20px 0px 20px 20px;
+        border-radius: 40px;
+        position: absolute;
+        top: 80vh;
+        left:3%;
+        width: 90%;
+        position: fixed;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .reservation{
+        display: block;
+    }
+    #reservation{
+        background-image: url(images/reservation.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+        background-color: rgba(0, 0,0,0.5);
+        background-blend-mode: darken;
+    
+    
+    }
+    .form{
+        background-color: black;
+        color: white;
+        padding: 40px;
+        width: 80%;
+        height: 110vh;
+    }
+    input{
+        background-color: black;
+        color: white;
+    }
+    #selector{
+        background-color: black;
+    }
+    #name{
+        height: 40px;
+        width: 90%;
+    }
+    #location{
+        height: 40px;
+        width: 60%;
+    }
+    #telephone{
+        height: 40px;
+        width: 90%;
+    }
+    #email{
+        height: 40px;
+        width: 90%;
+    }
+    #date{
+        height: 40px;
+        width: 90%;
+    }
+    #time{
+        height: 40px;
+        width: 90%;
+    }
+    #submit_button{
+        height: 40px;
+        width: 90%;
+    }
+    #guest{
+        height: 40px;
+        width: 90%;
+    }
+    #ankole_logo{
+        height: 170px;
+    }
+
+
+}
+
+@media screen  and  (max-width: 1200px)  and (min-width: 761px){
+    nav{
+        background-color: black;
+        height: 40px;
+        display: table-column;
+        gap: 20px;
+        padding: 20px 0px 20px 20px;
+        border-radius: 40px;
+        position: absolute;
+        top: 90vh;
+        left:3%;
+        width: 80%;
+        position: fixed;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .reservation{
+        display: block;
+    }
+    #reservation{
+        background-image: url(images/reservation.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+        background-color: rgba(0, 0,0,0.5);
+        background-blend-mode: darken;
+    
+    
+    }
+    .form{
+        background-color: black;
+        color: white;
+        padding: 70px;
+        width: 83%;
+        height: 70vh;
+    }
+    input{
+        background-color: black;
+        color: white;
+    }
+    #selector{
+        background-color: black;
+    }
+    #name{
+        height: 40px;
+        width: 90%;
+    }
+    #location{
+        height: 40px;
+        width: 60%;
+    }
+    #telephone{
+        height: 40px;
+        width: 90%;
+    }
+    #email{
+        height: 40px;
+        width: 90%;
+    }
+    #date{
+        height: 40px;
+        width: 90%;
+    }
+    #time{
+        height: 40px;
+        width: 90%;
+    }
+    #submit_button{
+        height: 40px;
+        width: 90%;
+    }
+    #guest{
+        height: 40px;
+        width: 90%;
+    }
+    #ankole_logo{
+        height: 170px;
+    }
+
+
+}
+
