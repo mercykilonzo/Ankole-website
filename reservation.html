@@ -12,24 +12,26 @@
 </head>
 
 <body>
-    <i class="fa-brands fa-whatsapp" id="whatsapp"></i>
+    <a href="https://api.whatsapp.com/send?phone=703212121&text=Welcome%20to%20Ankole%20Grill.%20How%20may%20we%20be%20of%20assistance"><i class="fa-brands fa-whatsapp" id="whatsapp"></i></a>
 
     <nav>
-        <a href="">time </a>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="review.html">Reviews</a>
-        <a href="events.html">Events</a>
-        <a href="">Live</a>
-        <a href="contact.html">Contacts</a>
-        <a href="reservation.html">Reservations</a>
+        <a href=""><i class="fa-solid fa-clock"></i></a>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="review.html">Reviews</a>
+            <a href="events.html">Events</a>
+            <a href="live.html">Live</a>
+            <a href="contact.html">Contacts</a>
+            <a href="reservation.html" id="reservationIcon">Reservations</a>
     </nav>
     <div class="reservation">
         <div id="reservation">
-            <h4>Karibu</h4>
-            <h1>Reservation</h1>
+            <img src="images/ankole_logo.svg" alt="Ankole" id="ankole_logo">
+            <h2>Karibu</h2>
+            <h1 id="wordreservation">Reservation</h1>
         </div>
-        <div class="form">
+        <div class="form" >
+            <form action="index.html">
             <label for="name">Name</label>
             <br>
             <input type="text" id="name" placeholder="Enter your first name">
@@ -62,6 +64,7 @@
             <input type="time" id="time">
             <br> <br>
             <button id="submit_button"><a href="index.html">Submit</a></button>
+        </form>
 
         </div>
         

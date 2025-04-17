@@ -27,11 +27,11 @@ nav{
     background-image: url(images/reservation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 62vh;
+    height: 84vh;
     color: white;
     width: 60%;
     text-align: center;
-    padding-top: 350px;
+    padding-top: 150px;
     background-color: rgba(0, 0,0,0.5);
     background-blend-mode: darken;
 
@@ -42,6 +42,13 @@ nav{
     color: white;
     padding: 80px;
     width: 40%;
+   
+}
+form{
+    box-shadow: 1px 1px 1px 1px;
+    color: grey;
+    padding: 10px;
+
 }
 input{
     background-color: black;
@@ -69,14 +76,17 @@ input{
 #date{
     height: 40px;
     width: 80%;
+    color: white;
 }
 #time{
     height: 40px;
     width: 80%;
 }
 #submit_button{
-    height: 40px;
+    height: 50px;
     width: 80%;
+    text-decoration: none;
+    color: black;
 }
 #guest{
     height: 40px;
@@ -87,10 +97,14 @@ input{
 }
 #whatsapp{
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     position: absolute;
     bottom: 10vh;
     right: 80px;
+}
+#wordreservation{
+    color: red;
+    font-size: 55px;
 }
 
 @media screen and (max-width: 760px){
@@ -179,6 +193,14 @@ input{
     #ankole_logo{
         height: 170px;
     }
+    #whatsapp{
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        bottom: 20vh;
+        right: 40px;
+        position: fixed;
+    }
 
 
 }
@@ -187,14 +209,14 @@ input{
     nav{
         background-color: black;
         height: 40px;
-        display: table-column;
-        gap: 20px;
+        display: flex;
+        gap: 30px;
         padding: 20px 0px 20px 20px;
         border-radius: 40px;
         position: absolute;
-        top: 90vh;
+        top: 83vh;
         left:3%;
-        width: 80%;
+        width: 100%;
         position: fixed;
     }
     nav a{
@@ -268,6 +290,14 @@ input{
     }
     #ankole_logo{
         height: 170px;
+    }
+    #whatsapp{
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        bottom: 4vh;
+        right: 40px;
+        position: fixed;
     }
 
 

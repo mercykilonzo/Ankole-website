@@ -42,6 +42,10 @@ body{
 
 
 }
+#ankole_logo{
+    height: 170px;
+    
+}
 
 
 
@@ -64,9 +68,9 @@ body{
         background-image: url(images/accra.jpg);
         background-repeat: no-repeat;
         color: white;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
-        padding: 100px 0px 0px 10px;
+        padding: 200px 0px 0px 10px;
         background-color: rgba(0, 0,0,0.5);
         background-blend-mode: darken;
         text-align: center;
@@ -106,6 +110,13 @@ body{
         top: 80vh;
         left:2%;
         width: 90%;
+        position: fixed;
+    }
+    #ankole_logo{
+        height: 170px;
+        position: absolute;
+        bottom: 75vh;
+        right: 120px;
         position: fixed;
     }
     

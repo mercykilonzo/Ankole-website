@@ -26,15 +26,17 @@
 }
 @media screen and (max-width: 760px){
     body{
-        overflow-y: hidden;
+        overflow: hidden;
+        font-size: 15px;
+        
     }
     .reviews{
-        padding-top: 7%;
+        padding-top: 4%;
         display: flex;
         gap: 4px;
         padding-left: 2%;
         background-color: black;
-        height: 160vh;
+        height: 100vh;
         color: white;
         
     }
@@ -49,10 +51,10 @@
     
     }
     #chevron{
-        padding-top: 60vh;
+        padding-top: 40vh;
         color: gray;
 }
-/* nav{
+nav{
     background-color: black;
     height: 40px;
     display: table-column;
@@ -62,9 +64,13 @@
     position: absolute;
     top: 80vh;
     left:1vh;
-    width: 43%;
-} */
+    width: 70%;
+}
 
+}
+#ankole_logo{
+    height: 170px;
+    
 }
 @media screen  and  (max-width: 1200px)  and (min-width: 761px){
 
