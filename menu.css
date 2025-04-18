@@ -141,6 +141,12 @@ ul{
     right: 30px;
     color: rgb(163, 156, 156);
 }
+#ankole_logo_menu{
+    height: 200px;
+     position: absolute;
+     left:45%;
+     top:10%
+}
 
 @media screen and (max-width: 760px){
        
@@ -155,30 +161,29 @@ ul{
         padding: 20px 0px 20px 20px;
         border-radius: 40px;
         position: absolute;
-        top: 80vh;
-        left:3%;
-        width: 80%;
+        top: 85vh;
+        left:1px;
+        width: 47%;
         position: fixed;
     }
-    nav:hover{
-        color: burlywood;
-    }
+   
     
     .menu_nav{
-        width: 100%;
+        width:100%;
         right: 50vh;
     
     }
     .kitisuru{
         background-image: url(images/outsidegrill.jpg);
-        height: 78vh;
+        height: 30vh;
         width: 50%;
         background-size: cover;
         color: white;
-        padding-top: 200px;
+        padding-top: 250px;
         text-align: center;
         background-color: rgba(0, 0,0,0.5);
         background-blend-mode: darken;
+        font-size: 15px;
     }
     .locations{
         display: block;
@@ -187,8 +192,8 @@ ul{
         
     }
     .kilimani{
-        background-image: url(images/ankole-grill-kilimani.jpg) ;
-        height: 78vh;
+        background-image: url(images/ankolegrill.jpg) ;
+        height: 40vh;
         width: 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -236,16 +241,22 @@ ul{
     #locate{
         text-decoration: none;
         color: white;
+        font-size: 45px;
     }
     #whatsapp{
         color: white;
         font-size: 60px;
         position: absolute;
-        bottom: 7vh;
-        right: 60px;
-        position: fixed;
+        bottom: 15vh;
+        right: 20px;
+        /* position: fixed; */
     }
-    
+    #ankole_logo_menu{
+        height: 200px;
+         position: absolute;
+         left:25%;
+         top:5%
+    }
 
 }
 @media screen  and  (max-width: 1200px)  and (min-width: 761px){
@@ -273,11 +284,11 @@ ul{
  }
  .kitisuru{
      background-image: url(images/outsidegrill.jpg);
-     height: 78vh;
+     height: 21vh;
      width: 50%;
      background-size: cover;
      color: white;
-     padding-top: 200px;
+     padding-top: 400px;
      text-align: center;
      background-color: rgba(0, 0,0,0.5);
      background-blend-mode: darken;
@@ -289,13 +300,13 @@ ul{
      
  }
  .kilimani{
-     background-image: url(images/ankole-grill-kilimani.jpg) ;
-     height: 78vh;
+     background-image: url(images/ankolegrill.jpg) ;
+     height: 40vh;
      width: 50%;
      background-repeat: no-repeat;
      background-size: cover;
      color: white;
-     padding-top: 200px;
+     padding-top: 100px;
      text-align: center;
      background-color: rgba(0, 0,0,0.5);
      background-blend-mode: darken;
@@ -344,6 +355,20 @@ ul{
     position: absolute;
     bottom: 8vh;
     right: 60px;
+    position: fixed;
+}
+#ankole_logo_menu{
+    height: 200px;
+     position: absolute;
+     left:35%;
+     top:5%;
+     position: fixed;
+}
+#icons{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: rgb(163, 156, 156);
     position: fixed;
 }
 
