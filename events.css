@@ -1,5 +1,6 @@
 body{
     /* overflow: hidden; */
+    margin: 0;
 }
 .events{
     display: flex;
@@ -46,7 +47,57 @@ body{
     height: 170px;
     
 }
+nav a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+nav{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    padding: 40px 0px 20px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 80vh;
+    left:50vh;
+    width: 43%;
 
+}
+#reservationIcon{
+
+    width: 15%;
+    height: 3vh;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 40px;
+}
+
+#icons{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: rgb(163, 156, 156);
+}
+#whatsapp{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom: 10vh;
+    right: 80px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: black;
+}
+#line_bars{
+  color: white;
+}
+#clock{
+  color:white;
+}
 
 
 
@@ -119,6 +170,47 @@ body{
         right: 120px;
         position: fixed;
     }
+    nav{
+        background-color: black;
+        height: 40px;
+        display: flex;
+        gap: 60px;
+        padding: 20px 0px 20px 30px;
+        border-radius: 40px;
+        position: absolute;
+        top: 78vh;
+        left:1vh;
+        width: 90%;
+        font-size: 20px;
+        position: fixed;
+    
+    }
+    #reservationIcon{
+    
+        width: 35%;
+        height: 3vh;
+        padding: 10px;
+        background-color: gray;
+        border-radius: 40px;
+    }
+    
+    #icons{
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        color: rgb(163, 156, 156);
+    }
+    #whatsapp{
+        color: white;
+        font-size: 30px;
+        position: absolute; 
+        bottom: 6vh;
+        right: 10px;
+        position: fixed;
+    }
+    #nav_item{
+      display: none;
+    }
     
 }
 
@@ -137,7 +229,7 @@ body{
         background-image: url(images/accra.jpg);
         background-repeat: no-repeat;
         color: white;
-        height: 100vh;
+        height: 70vh;
         width: 100%;
         padding: 100px 0px 0px 10px;
         background-color: rgba(0, 0,0,0.5);
@@ -147,7 +239,7 @@ body{
     #zanzibar{
         background-image: url(images/Zanzibar.jpg);
         color: white;
-        height: 80vh;
+        height: 70vh;
         width: 100%;
         padding: 100px 0px 0px 10px;
         background-color: rgba(0, 0,0,0.5);
@@ -159,7 +251,7 @@ body{
     #decor{
         background-image: url(images/decor.jpg);
         color: white;
-        height: 90vh;
+        height: 70vh;
         width: 100%;
         padding: 100px 0px 0px 10px;
         background-color: rgba(0, 0,0,0.5);
@@ -171,17 +263,36 @@ body{
     nav{
         background-color: black;
         height: 40px;
-        display: table-column;
+        display: flex;
         gap: 20px;
-        padding: 10px 1px 60px 20px;
+        padding: 20px 0px 20px 30px;
         border-radius: 40px;
         position: absolute;
-        top: 80vh;
-        left:2%;
+        top: 85vh;
+        left:1vh;
         width: 90%;
+        font-size: 20px;
+        position: fixed;
+    
+    }
+    #reservationIcon{
+    
+        width: 20%;
+        height: 3vh;
+        padding: 10px;
+        background-color: gray;
+        border-radius: 40px;
+    }
+
+    #whatsapp{
+        color: white;
+        font-size: 60px;
+        position: absolute; 
+        bottom: 2vh;
+        right: 10px;
         position: fixed;
     }
     
-
-
 }
+
+

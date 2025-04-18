@@ -63,6 +63,12 @@ nav a{
     color: white;
     
 }
+#line_bars{
+    color: white;
+  }
+  #clock{
+    color:white;
+  }
 
 
 @media screen and (max-width: 760px){
@@ -74,7 +80,7 @@ nav a{
     background-size: cover;
     color: white;
     font-size: 17px;
-    height: 100vh;
+    height: 120vh;
     text-align: left;
     padding: 100px 300px 300px 10px;
     position: relative;
@@ -90,16 +96,16 @@ nav a{
 
 #kitisuru_contacts{
     border: 2px solid;
-    height: 45vh;
-    width: 39vh;
+    height: 55vh;
+    width: 45vh;
     padding: 0px 15px;
     
 
 }
 #kilimani_contacts{
     border: 2px solid;
-    height: 55vh;
-    width: 39vh;
+    height: 60vh;
+    width: 45vh;
     padding: 0px 15px;
     margin-top: 20px;
    }
@@ -123,6 +129,17 @@ nav a{
     text-decoration: none;
     color: white;
     
+}
+#whatsapp{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom: 10vh;
+    right: 80px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: black;
 }
 
 
