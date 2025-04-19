@@ -15,7 +15,7 @@ nav{
     padding: 40px 0px 20px 50px;
     border-radius: 40px;
     position: absolute;
-    top: 80vh;
+    top: 85vh;
     left:50vh;
     width: 40%;
 }
@@ -27,7 +27,7 @@ nav{
     background-image: url(images/reservation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 84vh;
+    height: 85vh;
     color: white;
     width: 60%;
     text-align: center;
@@ -61,7 +61,7 @@ input{
     background-color: black;
     color-scheme: dark;
     height: 50px;
-    width: 90%;
+    width: 81%;
 }
 #name{
     height: 40px;
@@ -93,6 +93,11 @@ input{
     width: 80%;
     text-decoration: none;
     color: black;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 #guest{
     height: 40px;
@@ -113,6 +118,29 @@ input{
     font-size: 55px;
 }
 
+.time_popup{
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    top: auto;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+    font-size: 0.9em;
+  }
+  
+  .clock:hover .time_popup{
+      display: block;
+  
+  }
+  nav a:hover{
+    color: orange;
+  }
 @media screen and (max-width: 760px){
     nav{
         background-color: black;
