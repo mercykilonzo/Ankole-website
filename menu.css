@@ -173,7 +173,7 @@ ul{
         position: absolute;
         top: 80vh;
         left:2vh;
-        width: 70%;
+        width: 40%;
         font-size: 20px;
         position: fixed;
     
@@ -187,7 +187,7 @@ ul{
     }
     .kitisuru{
         background-image: url(images/outsidegrill.jpg);
-        height: 30vh;
+        height: 50vh;
         width: 50%;
         background-size: cover;
         color: white;
@@ -200,12 +200,12 @@ ul{
     .locations{
         display: block;
         width: 200%;
-        height: 20px;
+        height: 100px;
         
     }
     .kilimani{
         background-image: url(images/ankolegrill.jpg) ;
-        height: 40vh;
+        height: 80vh;
         width: 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -262,7 +262,7 @@ ul{
         position: absolute;
         bottom: 10vh;
         right: 20px;
-        position: fixed;
+        /* position: fixed; */
     }
     #ankole_logo_menu{
         height: 200px;

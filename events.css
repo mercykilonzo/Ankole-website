@@ -66,6 +66,9 @@ nav{
     width: 43%;
 
 }
+nav:hover{
+    color: orange;
+}
 #reservationIcon{
 
     width: 15%;

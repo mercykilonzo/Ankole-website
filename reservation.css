@@ -53,9 +53,15 @@ form{
 input{
     background-color: black;
     color: white;
+    color-scheme: dark;
+    width: 80%;
+    height: 40px;
 }
 #selector{
     background-color: black;
+    color-scheme: dark;
+    height: 50px;
+    width: 90%;
 }
 #name{
     height: 40px;
@@ -116,7 +122,7 @@ input{
         padding: 20px 0px 20px 20px;
         border-radius: 40px;
         position: absolute;
-        top: 80vh;
+        top: 90vh;
         left:3%;
         width: 90%;
         position: fixed;
@@ -129,6 +135,7 @@ input{
     
     .reservation{
         display: block;
+        height: 130vh;
     }
     #reservation{
         background-image: url(images/reservation.jpg);
@@ -136,7 +143,7 @@ input{
         background-size: cover;
         height: 60vh;
         color: white;
-        width: 100%;
+        width: 105%;
         text-align: center;
         padding-top: 50px;
         background-color: rgba(0, 0,0,0.5);
@@ -149,7 +156,7 @@ input{
         color: white;
         padding: 40px;
         width: 80%;
-        height: 110vh;
+        height: 150vh;
     }
     input{
         background-color: black;
@@ -195,7 +202,7 @@ input{
     }
     #whatsapp{
         color: white;
-        font-size: 60px;
+        font-size: 50px;
         position: absolute;
         bottom: 20vh;
         right: 40px;
@@ -247,7 +254,7 @@ input{
         color: white;
         padding: 70px;
         width: 83%;
-        height: 70vh;
+        height: 100vh;
     }
     input{
         background-color: black;
@@ -293,9 +300,9 @@ input{
     }
     #whatsapp{
         color: white;
-        font-size: 60px;
+        font-size: 50px;
         position: absolute;
-        bottom: 4vh;
+        bottom: 0vh;
         right: 40px;
         position: fixed;
     }

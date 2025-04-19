@@ -121,8 +121,8 @@ nav{
     padding: 40px 0px 20px 50px;
     border-radius: 40px;
     position: absolute;
-    top: 80vh;
-    left:50vh;
+    top: 85vh;
+    left:45vh;
     width: 43%;
 
 }
@@ -157,6 +157,14 @@ nav{
 }
 #clock{
   color:white;
+}
+
+#word{
+    color: red;
+    font-size: 60px;
+}
+#ankole_logo{
+    height: 200px;
 }
 
 @media screen  and  (max-width: 1200px)  and (min-width: 761px){
@@ -270,6 +278,7 @@ nav{
     
     }
 }
+
 @media screen  and  (max-width: 761px){
     .live{
         background-image: url(images/vibrant\ culture.webp);
@@ -346,10 +355,10 @@ nav{
     }
     #whatsapp{
         color: white;
-        font-size: 60px;
+        font-size: 50px;
         position: absolute;
         bottom: 1vh;
-        right: 60px;
+        right: 30px;
         position: fixed;
     }
     #logo{
@@ -362,20 +371,7 @@ nav{
         
         
     }
-    nav{
-        background-color: black;
-        height: 40px;
-        display: table-column;
-        gap: 20px;
-        padding: 40px 0px 20px 50px;
-        border-radius: 40px;
-        position: absolute;
-        top: 75vh;
-        left:2vh;
-        width: 79%;
-        position: fixed;
-    
-    }
+  
     #nav_item{
         display: none;
       }
